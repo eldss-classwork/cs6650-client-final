@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="load-gen-client:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -14,7 +19,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88696536-2995-45fb-95f5-743549b7f603" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arguments.properties" beforeDir="false" afterPath="$PROJECT_DIR$/arguments.properties" afterDir="false" />
     </list>
@@ -52,6 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,6 +64,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration name="BsdsApiClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -93,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605587249622</updated>
-      <workItem from="1605587250686" duration="2775000" />
+      <workItem from="1605587250686" duration="14535000" />
     </task>
     <servers />
   </component>
@@ -112,22 +120,42 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="914" height="303" key="GridCell.Tab.0.bottom" timestamp="1605589289184">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="0" y="1211" width="1024" height="852" key="#Project_Structure" timestamp="1605646814518">
+      <screen x="0" y="0" width="1920" height="2160" />
     </state>
-    <state width="914" height="303" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1605589289184" />
-    <state width="914" height="303" key="GridCell.Tab.0.center" timestamp="1605589289184">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="0" y="1211" width="1024" height="852" key="#Project_Structure/0.0.1920.2160@0.0.1920.2160" timestamp="1605646814518" />
+    <state x="0" y="1291" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605646570038">
+      <screen x="0" y="0" width="1920" height="2160" />
     </state>
-    <state width="914" height="303" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1605589289184" />
-    <state width="914" height="303" key="GridCell.Tab.0.left" timestamp="1605589289183">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="0" y="1291" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.2160@0.0.1920.2160" timestamp="1605646570038" />
+    <state x="240" y="1432" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605646778640">
+      <screen x="0" y="0" width="1920" height="2160" />
     </state>
-    <state width="914" height="303" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1605589289183" />
-    <state width="914" height="303" key="GridCell.Tab.0.right" timestamp="1605589289184">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="240" y="1432" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.2160@0.0.1920.2160" timestamp="1605646778640" />
+    <state x="290" y="1398" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605646784175">
+      <screen x="0" y="0" width="1920" height="2160" />
     </state>
-    <state width="914" height="303" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1605589289184" />
+    <state x="290" y="1398" width="424" height="491" key="FileChooserDialogImpl/0.0.1920.2160@0.0.1920.2160" timestamp="1605646784175" />
+    <state width="914" height="303" key="GridCell.Tab.0.bottom" timestamp="1605741631735">
+      <screen x="0" y="0" width="1920" height="2160" />
+    </state>
+    <state width="914" height="303" key="GridCell.Tab.0.bottom/0.0.1920.2160@0.0.1920.2160" timestamp="1605741631735" />
+    <state width="914" height="303" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1605682346131" />
+    <state width="914" height="303" key="GridCell.Tab.0.center" timestamp="1605741631735">
+      <screen x="0" y="0" width="1920" height="2160" />
+    </state>
+    <state width="914" height="303" key="GridCell.Tab.0.center/0.0.1920.2160@0.0.1920.2160" timestamp="1605741631735" />
+    <state width="914" height="303" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1605682346131" />
+    <state width="914" height="303" key="GridCell.Tab.0.left" timestamp="1605741631735">
+      <screen x="0" y="0" width="1920" height="2160" />
+    </state>
+    <state width="914" height="303" key="GridCell.Tab.0.left/0.0.1920.2160@0.0.1920.2160" timestamp="1605741631735" />
+    <state width="914" height="303" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1605682346131" />
+    <state width="914" height="303" key="GridCell.Tab.0.right" timestamp="1605741631735">
+      <screen x="0" y="0" width="1920" height="2160" />
+    </state>
+    <state width="914" height="303" key="GridCell.Tab.0.right/0.0.1920.2160@0.0.1920.2160" timestamp="1605741631735" />
+    <state width="914" height="303" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1605682346131" />
     <state x="13" y="211" width="924" height="691" key="Maven.ArtifactSearchDialog" timestamp="1605587521908">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
